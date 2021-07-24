@@ -26,7 +26,7 @@ class A
  };
  void main()
  {
-     A *p; b oj;
+     A *p; B oj;
      p=&ob;
      p->fun() //Late binding
      getch();  b //in this case, base class is ignorerd vy using virtual keyword and drive class will be called. 
