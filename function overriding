@@ -25,10 +25,10 @@ class A
  };
  void main()
  {
-     A *p; b oj;
+     A *p; B oj;
      p=&ob;
      p->fun() //Early binding
-     getch();  b //in this case always called base class 
+     getch();  //in this case always called base class 
   }   
      
      
