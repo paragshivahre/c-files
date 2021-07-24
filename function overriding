@@ -1,0 +1,34 @@
+#include<iostream.h>
+#include<conio.h>
+
+class A
+{
+     int a,b;
+        public:
+           void fun()
+           {
+           cout<<"enter value:";
+           cin>>a>>b;
+           cout<<"sum"<<a+b<<endl;
+           }
+ };
+ class B:pubic A
+ {  
+         int a,b;
+            public :
+            void fun()  // function overriding
+            {
+            cout<<"enter value:";
+            cin>>a>>b;
+            cout<<"sub"<<a-b<<endl;
+            }
+ };
+ void main()
+ {
+     A *p; b oj;
+     p=&ob;
+     p->fun() //Early binding
+     getch();  b //in this case always called base class 
+  }   
+     
+     
